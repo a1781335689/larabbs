@@ -23,9 +23,9 @@ body {
 .navbar-static-top {
   border-color: #e7e7e7;
   background-color: #fff;
-  box-shadow: 0px 1px 11px 2px rgba(42, 42, 42, 0.1);
-  border-top: 4px solid #00b5ad;
-  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0px 5px 11px 2px rgba(26, 182, 255, 0.1);
+  border-top: 4px solid #1ab6ff;
+  //border-bottom: 1px solid #1ab6ff;
   margin-bottom: 40px;
   margin-top: 0px;
 }
@@ -156,4 +156,20 @@ body {
 
 .card-body-color {
   background-color: #b1c3c5;
+}
+
+/* 消息通知 */
+.notification-badge {
+  .badge {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .badge-secondary {
+    background-color: #1ab6ff;
+  }
+
+  .badge-hint {
+    background-color: #ffc700 !important;
+  }
 }

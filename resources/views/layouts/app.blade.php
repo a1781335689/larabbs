@@ -20,6 +20,7 @@
 </head>
 
 <body>
+  <!-- route_class()辅助函数helpers.php -->
   <div id="app" class="{{ route_class() }}-page">
 
     @include('layouts._header')
