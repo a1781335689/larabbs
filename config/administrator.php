@@ -63,6 +63,9 @@ return array(
         return Auth::check() && Auth::user()->can('manage_contents');
     },
 
+    // 当选项 `permission` 权限检测不通过时，会重定向用户到此处设置的路径
+    'login_path' => 'permission-denied',
+
     /*
      * 使用布尔值来设定是否使用后台主页面。
      *
